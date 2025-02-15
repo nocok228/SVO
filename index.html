@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поздравляем с 23 февраля!</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column; /* Устанавливаем вертикальное направление для элементов */
+            min-height: 100vh; /* Минимальная высота - 100% высоты окна */
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+        }
+        .small-image {
+            width: 500px; /* Ширина изображения */
+            height: auto; /* Высота будет пропорциональна */
+            margin: 20px auto; /* Центрирование изображения */
+            border-radius: 8px; /* Закругленные углы для аккуратности */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Легкая тень для эффекта */
+        }
+        .text-overlay {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 2em;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .content {
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1; /* Заставляем контент занимать оставшееся пространство */
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            padding: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>С Днем Защитника Отечества!</h1>
+</header>
+
+<img src="https://pererabotka.gazprom.ru/d/chiefcolumnpost/16/22/sajt-23-fevralya-2020-2.jpg"  class="small-image">
+
+
+<div class="content">
+    <h2>Исторические факты</h2>
+    <ul>
+        <li>Праздник был установлен в 1922 году и изначально отмечался как День Красной Армии.</li>
+        <li>С 1946 года праздник стал называться Днем Советской Армии и Военно-Морского Флота.</li>
+        <li>С 1995 года 23 февраля официально называется Днем Защитника Отечества.</li>
+    </ul>
+
+    <h2>Отправьте поздравление</h2>
+    <form>
+        <label for="name">Ваше имя:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="message">Ваше поздравление:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <input type="submit" value="Отправить">
+    </form>
+</div>
+сделал:Солдатенко Арсений Павлович
+<footer>
+    <p>&copy; 2025 Поздравляем с 23 февраля!</p>
+</footer>
+<a>https://t.me/Ryke_paint</a>
+</body>
+</html>
+
